@@ -250,8 +250,8 @@
 }
 /*==================== Click Top ====================*/
 .scroll-top {
-  width:35px;
-  height:35px;
+  width:40px;
+  height:40px;
   line-height: 35px;
   position: fixed;
   bottom: 20px;
@@ -259,9 +259,9 @@
   z-index: 99;
   text-align: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 26px;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 10%;
   background: #000;
   display: none;
   transition: all 0.3s ease-in-out;
@@ -278,7 +278,7 @@
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
 /*------------- Global Prefix -------------------*/
-::-webkit-scrollbar{ width: 5px; }
+::-webkit-scrollbar{ width: 9px; }
 ::-webkit-scrollbar-track { background: #fff;}
 ::-webkit-scrollbar-thumb { background: var(--blue-dark);border-radius: 0;}
 :root {
@@ -917,7 +917,7 @@ body .theme-btn-fourteen:hover {background: #6F6CFF;}
   padding: 30px 70px;
   transition: all 0.4s ease-out;
 }
-.theme-main-menu.bg-none {background: transparent;}
+.theme-main-menu.bg-none {background: #212121;}
 .theme-main-menu.sticky-menu.fixed {
   z-index: 9999;
   padding-top: 0; 
@@ -12794,3 +12794,17 @@ body .theme-btn-fourteen:hover {background: #6F6CFF;}
   padding: 0 42px;
 }
 .fancy-feature-fortyOne .buy-btn:hover {background: #2B0937; color: #fff;}
+.theme-footer-seven .bottom-footer {
+  margin-top: 0;
+}
+
+.theme-footer-seven .container:first-child {
+  line-height: 1;
+}
+
+.theme-footer-seven .container:first-child .row {
+  justify-content: center;
+}
+.theme-footer-seven .logo {
+  text-align: center;
+}
